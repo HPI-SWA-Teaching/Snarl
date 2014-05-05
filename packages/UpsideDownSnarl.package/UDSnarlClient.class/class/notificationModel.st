@@ -1,0 +1,3 @@
+defaults
+notificationModel
+	^ UDSnarlNotification

@@ -1,0 +1,14 @@
+{
+	"category" : "Snarl-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tonyg 12/24/2009 08:33",
+	"instvars" : [
+		"alphaSource" ],
+	"name" : "SnarlVanishingTextColor",
+	"pools" : [
+		 ],
+	"super" : "TextColor",
+	"type" : "normal" }

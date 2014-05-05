@@ -1,0 +1,18 @@
+{
+	"category" : "UpsideDownSnarl",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"applicationName",
+		"notification",
+		"notificationClass",
+		"title",
+		"timeout" ],
+	"name" : "UDSnarlNotification",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
