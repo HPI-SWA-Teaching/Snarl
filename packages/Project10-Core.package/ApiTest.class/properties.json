@@ -1,0 +1,14 @@
+{
+	"category" : "Project10-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"randmVarible" ],
+	"name" : "ApiTest",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
