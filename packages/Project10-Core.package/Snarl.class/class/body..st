@@ -1,3 +1,7 @@
 as yet unclassified
 body: body
-	^ self notification body: body; display
+	turnedOn 
+	ifTrue:
+		[^ self notification body: body; display]
+	ifFalse:
+		[^ nil]

@@ -1,7 +1,7 @@
 {
 	"category" : "Project10-Core",
 	"classinstvars" : [
-		 ],
+		"turnedOn" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "tonyg 12/24/2009 08:47",

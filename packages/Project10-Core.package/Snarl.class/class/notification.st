@@ -1,3 +1,7 @@
 as yet unclassified
 notification
-	^ SnarlNotificationMorph new
+	turnedOn 
+	ifTrue:
+		[^ SnarlNotificationMorph new]
+	ifFalse: 
+		[^ nil]

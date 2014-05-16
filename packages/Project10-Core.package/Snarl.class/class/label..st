@@ -1,3 +1,8 @@
 as yet unclassified
 label: label
-	^ self notification label: label; display
+	turnedOn 
+	ifTrue: 
+		[^ self notification label: label; display]
+	ifFalse:
+		[^ nil]
+	
