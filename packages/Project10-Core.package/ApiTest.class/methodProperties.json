@@ -2,11 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"apiCall" : "MCJ 5/16/2014 15:02:28.676",
+		"apiCall" : "MCJ 5/16/2014 16:53:34.386",
 		"apiMessageBox:text:title:flags:" : "MCJ 5/16/2014 15:08:43.015",
 		"apiOpenTextFile:" : "MCJ 5/16/2014 16:36:50.762",
 		"apiOpenTextFile:fileName:da:sm:sa:cd:flags:handle:" : "MCJ 5/16/2014 16:43:37.693",
 		"apiShellExecute:lpOperation:lpFile:lpParameters:lpDirectory:nShowCmd:" : "MCJ 5/16/2014 16:07:57.127",
 		"messageBox:text:" : "MCJ 5/16/2014 16:07:32.993",
 		"openExe:" : "MCJ 5/16/2014 16:08:23.795",
-		"openTextFile:" : "MCJ 5/16/2014 16:33:20.502" } }
+		"openTextFile:" : "MCJ 5/16/2014 16:33:20.502",
+		"writeToFile:text:" : "MCJ 5/16/2014 17:11:12.73" } }
