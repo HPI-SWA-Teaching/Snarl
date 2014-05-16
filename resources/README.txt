@@ -1,0 +1,1 @@
+Copy the content of this folder to your Squeak ressources folder (..\SWT2014\SWT2014.app\Contents\Resources\)
