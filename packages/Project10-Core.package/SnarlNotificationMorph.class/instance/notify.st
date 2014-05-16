@@ -1,5 +1,5 @@
 as yet unclassified
-display
+notify
 	WorldState addDeferredUIMessage: [
 		self position: self unoccupiedPosition.
 		self setProperty: #morphicLayerNumber toValue: self morphicLayerNumber.

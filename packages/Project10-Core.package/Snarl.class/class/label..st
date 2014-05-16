@@ -2,7 +2,7 @@ as yet unclassified
 label: label
 	turnedOn 
 	ifTrue: 
-		[^ self notification label: label; display]
+		[^ self notification label: label; notify]
 	ifFalse:
 		[^ nil]
 	
