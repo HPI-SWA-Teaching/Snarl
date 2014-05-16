@@ -1,3 +1,7 @@
 as yet unclassified
 label: label body: body
-	^ self notification label: label body: body; display
+	turnedOn
+	ifTrue:
+		[^ self notification label: label body: body; display]
+	ifFalse:
+		[^ nil]
