@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"apiCall" : "MCJ 5/30/2014 14:44:36.678",
 		"apiMessageBox:text:title:flags:" : "MCJ 5/16/2014 15:08:43.015",
 		"apiOpenTextFile:" : "MCJ 5/16/2014 16:36:50.762",
 		"apiOpenTextFile:fileName:da:sm:sa:cd:flags:handle:" : "MCJ 5/16/2014 16:43:37.693",
