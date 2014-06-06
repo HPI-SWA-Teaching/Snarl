@@ -15,8 +15,12 @@ baseline: spec
 						yourself ];	
 				yourself.
 			spec
-				package: 'Project10-Core';
-				package: 'Project10-Tests' with: [ spec requires: #('default')];
+				package: 'Project10-Core' with: [ spec requires: #('FFI-Pool' 'FFI-Kernel')]; 
+				package: 'Project10-Tests' with: [ spec requires: #('Project10-Core')];
 				yourself.
+			spec
+               	 	group: 'default' with: #('Project10-Core');
+                		group: 'Tests' with: #('Project10-Tests');
+               	 	group: 'TravisCI' with: #('Tests').
 			"more specs from the screencast..."
 		]
