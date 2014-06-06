@@ -9,8 +9,10 @@ initialize
 	self useRoundedCorners.
 	self setProperty: #autoFitContents toValue: false.
 	self setTextStyle: self defaultTextStyle.
-	sound := (SampledSound fromWaveFileNamed: 'Notify', FileDirectory slash, 'sound.wav').
-	mute := false.
-
+	
+	[sound := (SampledSound fromWaveFileNamed: 'Notify', FileDirectory slash, 'sound.wav').]
+	on: Exception do: [self label:'Sound-Datei konnte nicht geladen werden'].
+	
 	dismissHandle := self createDismissHandle.
 	self addMorph: dismissHandle.
+	
