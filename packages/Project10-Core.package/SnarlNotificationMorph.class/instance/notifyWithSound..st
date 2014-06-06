@@ -1,9 +1,9 @@
 as yet unclassified
-notify
+notifyWithSound: mute
 	WorldState addDeferredUIMessage: [
 		self position: self unoccupiedPosition.
 		self setProperty: #morphicLayerNumber toValue: self morphicLayerNumber.
 		World addMorph: self.
-		self playSound.
+		mute ifFalse: [self playSound].
 		self resetVanishTimer.
 		self startStepping].

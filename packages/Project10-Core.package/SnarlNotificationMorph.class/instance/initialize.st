@@ -10,6 +10,7 @@ initialize
 	self setProperty: #autoFitContents toValue: false.
 	self setTextStyle: self defaultTextStyle.
 	sound := (SampledSound fromWaveFileNamed: 'Notify', FileDirectory slash, 'sound.wav').
+	mute := false.
 
 	dismissHandle := self createDismissHandle.
 	self addMorph: dismissHandle.
