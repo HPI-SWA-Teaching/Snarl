@@ -1,3 +1,0 @@
-accessing
-display
-	^drawable display

@@ -1,0 +1,1 @@
+(name 'FFI-Kernel-tbn.20'message 'use standard #and: instead of #and:and: since last one is deprecated in Pharo'id '88cb12af-13c5-774e-aa7c-522c45f97a1d'date '4 August 2010'time '4:07:23 pm'author 'tbn'ancestors ((id '2cb35d2b-374d-1b48-8fb0-38cda33dfed3'))stepChildren ())

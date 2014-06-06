@@ -5,6 +5,7 @@ baseline: spec
 		for: #'common'
 		do:[
 			spec
+				package: 'FFI';
 				package: 'Project10-Core' with: [ spec requires: #('FFI')]; 
 				package: 'Project10-Tests' with: [ spec requires: #('Project10-Core')];
 				yourself.

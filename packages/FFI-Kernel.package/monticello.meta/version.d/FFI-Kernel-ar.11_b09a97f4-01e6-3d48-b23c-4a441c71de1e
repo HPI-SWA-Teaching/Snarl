@@ -1,0 +1,1 @@
+(name 'FFI-Kernel-ar.11'message 'Add ExternalFunction tryInvokeWithArgs: to simulate FFI calls in the debugger.'id 'b09a97f4-01e6-3d48-b23c-4a441c71de1e'date '2 August 2009'time '10:50:03.735 am'author 'ar'ancestors ((id '9279a3c8-7164-af45-b4bb-58a2e7e281d6'))stepChildren ())

@@ -1,0 +1,1 @@
+(name 'FFI-Kernel-ar.22'message 'Add support for pointer arithmetic (offsets) on ExternalAddress. Useful for array subscriptions.'id 'fb6d9b77-34ea-9b48-9d13-3e1371162b4a'date '16 September 2010'time '9:46:01.862 pm'author 'ar'ancestors ((id '88cb12af-13c5-774e-aa7c-522c45f97a1d'))stepChildren ())
