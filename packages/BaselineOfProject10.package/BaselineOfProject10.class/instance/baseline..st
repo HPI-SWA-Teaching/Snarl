@@ -5,9 +5,18 @@ baseline: spec
 		for: #'common'
 		do:[
 			spec
-				package: 'FFI-Pools';
+				"package: 'FFI-Pools';
 				package: 'FFI-Kernel' with: [ spec requires: #('FFI-Pools')];
-				package: 'Project10-Core' with: [ spec requires: #('FFI-Kernel')]; 
+				"
+				package: 'FFI-Pools' with: 
+					[ spec
+     						repository: 'http://source.squeak.org/FFI/';
+						yourself ];
+				package: 'FFI-Kernel' with: 
+					[ spec
+     						repository: 'http://source.squeak.org/FFI/';
+						yourself ];
+				package: 'Project10-Core' with: [ spec requires: #('FFI-Pools' 'FFI-Kernel')]; 
 				package: 'Project10-Tests' with: [ spec requires: #('Project10-Core')];
 				yourself.
 			spec
