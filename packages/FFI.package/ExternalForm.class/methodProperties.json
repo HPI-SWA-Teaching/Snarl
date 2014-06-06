@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"allocateSpace" : "jcg 6/6/2010 14:32",
+		"destroySurface" : "jcg 1/29/2010 01:29",
+		"initialize" : "jcg 6/4/2010 02:04",
+		"pointer" : "jcg 2/16/2010 00:01",
+		"primCreateManualSurfaceWidth:height:rowPitch:depth:isMSB:" : "jcg 1/30/2010 02:52",
+		"primDestroyManualSurface:" : "jcg 1/30/2010 02:52",
+		"primManualSurface:setPointer:" : "jcg 1/30/2010 02:52",
+		"setExtent:depth:" : "jcg 1/26/2010 02:00",
+		"setExtent:depth:bits:" : "jcg 1/29/2010 01:31",
+		"setManualSurfacePointer:" : "jcg 6/6/2010 13:37" } }

@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"byteSize" : "ar 12/2/1999 14:31",
+		"compileAlias:withAccessors:" : "gk 3/1/2005 12:06",
+		"compileAllFields" : "ar 12/2/1999 15:35",
+		"compileFields" : "ar 12/2/1999 14:28",
+		"compileFields:" : "ar 12/2/1999 14:28",
+		"compileFields:withAccessors:" : "tbn 8/4/2010 16:06",
+		"compiledSpec" : "ar 12/2/1999 14:28",
+		"defineAliasAccessorsFor:type:" : "ar 4/5/2006 01:18",
+		"defineFieldAccessorsFor:startingAt:type:" : "ar 11/29/1999 00:42",
+		"defineFields" : "ar 12/2/1999 14:37",
+		"defineFields:" : "ar 12/2/1999 14:38",
+		"doneCompiling" : "ar 11/22/1999 10:10",
+		"externalNew" : "ar 12/1/1999 15:58",
+		"externalType" : "ar 12/2/1999 16:55",
+		"fields" : "ar 11/29/1999 00:28",
+		"fileOutInitializerOn:" : "ar 1/26/2000 14:20",
+		"fileOutOn:moveSource:toFile:initializing:" : "ar 1/26/2000 14:19",
+		"fromHandle:" : "ar 11/29/1999 00:36",
+		"new" : "ar 12/1/1999 15:58",
+		"obsolete" : "sma 6/16/2000 22:12",
+		"rename:" : "ar 11/22/1999 04:12" },
+	"instance" : {
+		"free" : "ar 11/28/1999 23:21",
+		"longPrintOn:" : "gk 3/1/2005 12:07" } }

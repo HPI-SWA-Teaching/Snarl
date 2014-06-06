@@ -1,0 +1,14 @@
+{
+	"category" : "FFI-Win32-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ErrorCodes" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"errorCode" ],
+	"name" : "Win32Error",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "FFI-Unix-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"display",
+		"xid" ],
+	"name" : "X11Drawable",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

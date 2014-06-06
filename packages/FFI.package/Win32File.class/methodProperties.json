@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"setReadOnly:" : "bgf 3/9/2009 22:37",
+		"setReadWrite:" : "bgf 3/9/2009 22:38" },
+	"instance" : {
+		"getFileAttributes:" : "bgf 3/9/2009 22:31",
+		"setFileAttributes:lpAttrs:" : "bgf 3/9/2009 22:31",
+		"setReadOnly:" : "bgf 3/10/2009 01:06",
+		"setReadWrite:" : "bgf 3/10/2009 01:06" } }

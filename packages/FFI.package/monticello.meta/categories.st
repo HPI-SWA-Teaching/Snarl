@@ -1,0 +1,9 @@
+SystemOrganization addCategory: #'FFI-Pools'!
+SystemOrganization addCategory: #'FFI-Kernel'!
+SystemOrganization addCategory: #'FFI-Tests'!
+SystemOrganization addCategory: #'FFI-MacOS-Examples'!
+SystemOrganization addCategory: #'FFI-Unix-Examples'!
+SystemOrganization addCategory: #'FFI-Win32-Examples'!
+SystemOrganization addCategory: #'FFI-Examples-MacOS'!
+SystemOrganization addCategory: #'FFI-Examples-Win32'!
+SystemOrganization addCategory: #'FFI-Examples-X11'!

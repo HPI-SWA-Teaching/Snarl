@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"ffiPrintString:" : "ar 8/14/2006 19:27",
+		"ffiTestChar:with:with:with:" : "ar 8/14/2006 19:27",
+		"ffiTestDoubles:with:" : "ar 8/14/2006 19:27",
+		"ffiTestFloats:with:" : "ar 8/14/2006 19:27",
+		"ffiTestInt:with:with:with:" : "ar 8/14/2006 19:28",
+		"ffiTestLongLong:with:" : "ar 11/28/1999 19:51",
+		"ffiTestPoint2:with:" : "ar 11/28/1999 19:51",
+		"ffiTestPoint4:with:" : "ar 11/28/1999 19:51",
+		"ffiTestPointers:with:" : "ar 12/1/1999 16:39",
+		"ffiTestShort:with:with:with:" : "ar 8/14/2006 19:28",
+		"ffiTestUlong:with:with:with:" : "ar 7/28/2009 18:14",
+		"moduleName" : "ar 11/28/1999 19:51" },
+	"instance" : {
+		"ffiPrintString:" : "ar 11/19/1999 20:37",
+		"ffiTestChar:with:with:with:" : "ar 11/20/1999 23:41",
+		"ffiTestDoubles:with:" : "ar 11/19/1999 21:30",
+		"ffiTestFloats:with:" : "ar 11/19/1999 20:31",
+		"ffiTestInt:with:with:with:" : "ar 11/19/1999 20:31",
+		"ffiTestShort:with:with:with:" : "ar 11/19/1999 20:31" } }

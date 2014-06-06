@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"initialize" : "jrd 4/23/2009 18:00",
+		"lastError" : "jrd 4/23/2009 16:38",
+		"win32GetLastError" : "jrd 4/23/2009 16:39" },
+	"instance" : {
+		"errorCode" : "jrd 4/23/2009 17:59",
+		"errorMessage" : "jrd 4/23/2009 18:09",
+		"errorName" : "jrd 4/23/2009 18:10",
+		"initializeWithLastError" : "jrd 4/23/2009 16:37" } }

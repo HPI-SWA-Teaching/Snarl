@@ -1,0 +1,14 @@
+{
+	"category" : "FFI-Win32-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "Win32Window",
+	"pools" : [
+		"Win32Constants" ],
+	"super" : "Win32Handle",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "FFI-Examples-MacOS",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "spd 5/16/2010 22:42",
+	"instvars" : [
+		 ],
+	"name" : "MacRect",
+	"pools" : [
+		 ],
+	"super" : "ExternalStructure",
+	"type" : "normal" }

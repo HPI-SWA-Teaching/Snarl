@@ -1,0 +1,14 @@
+{
+	"category" : "FFI-Unix-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"drawable" ],
+	"name" : "X11GC",
+	"pools" : [
+		 ],
+	"super" : "ExternalStructure",
+	"type" : "normal" }
