@@ -6,6 +6,10 @@ baseline: spec
 		do:[
 			spec
 				package: 'Project10-Core';
-				package: 'Project10-Tests' with: [ spec requires: #('default')]
+				package: 'Project10-Tests' with: [ spec requires: #('default')];
 			"more specs from the screencast..."
+				package: 'FFI' with: 
+					[ spec
+     						repository: 'http://source.squeak.org/FFI';
+						yourself ]
 		]
