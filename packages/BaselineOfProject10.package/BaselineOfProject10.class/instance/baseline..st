@@ -5,7 +5,7 @@ baseline: spec
 		for: #'common'
 		do:[
 			spec
-				package: 'JSON' with: 
+				package: 'FFI' with: 
 					[ spec
      						repository: 'http://source.squeak.org/FFI';
 						yourself ];	
