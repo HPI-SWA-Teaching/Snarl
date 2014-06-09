@@ -1,11 +1,13 @@
 as yet unclassified
 testTurnOffNotifications
 	"can't Count Morphs because it is displayed by a asynchronius Message just played after this test"
-	|countDeferredUIMessages|	
+	|countSubmorphs|
+	self currentWorld runStepMethods.	
 	Snarl turnOff.
-	countDeferredUIMessages := WorldState deferredUIMessages size..
+	countSubmorphs := self currentWorld submorphs size..
 	Snarl label:'Test' body:'Test'.
-	self assert: countDeferredUIMessages equals: WorldState deferredUIMessages size.
+	self currentWorld runStepMethods.
+	self assert: countSubmorphs equals: self currentWorld submorphs size.
 		
 	
 	

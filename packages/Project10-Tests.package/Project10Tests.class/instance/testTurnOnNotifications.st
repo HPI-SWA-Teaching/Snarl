@@ -1,11 +1,13 @@
 as yet unclassified
 testTurnOnNotifications
 	"comment stating purpose of message"
-	|countDeferredUIMessages|	
+	|countSubmorphs|	
+	self currentWorld runStepMethods.
 	Snarl turnOn.
-	countDeferredUIMessages := WorldState deferredUIMessages size..
+	countSubmorphs := self currentWorld submorphs size..
 	Snarl label:'Test' body:'Test'.
-	self assert: countDeferredUIMessages+1 equals: WorldState deferredUIMessages size.
+	self currentWorld runStepMethods.
+	self assert: countSubmorphs+1 equals: self currentWorld submorphs size.
 		
 	
 	
