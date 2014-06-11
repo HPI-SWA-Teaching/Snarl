@@ -1,3 +1,3 @@
 as yet unclassified
 soundOn
-	mute := false.
+	^soundOn := true.

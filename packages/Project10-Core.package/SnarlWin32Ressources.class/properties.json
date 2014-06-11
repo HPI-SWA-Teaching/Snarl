@@ -1,15 +1,14 @@
 {
 	"category" : "Project10-Core",
 	"classinstvars" : [
-		"turnedOn",
-		"soundOn" ],
+		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "tonyg 12/24/2009 08:47",
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "Snarl",
+	"name" : "SnarlWin32Ressources",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "SnarlExternalRessources",
 	"type" : "normal" }
