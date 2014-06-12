@@ -1,0 +1,3 @@
+nil
+ressourceName
+	^'terminal-notifier'

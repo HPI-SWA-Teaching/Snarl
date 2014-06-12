@@ -1,0 +1,14 @@
+{
+	"category" : "Project10-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SnarlMacOSRessources",
+	"pools" : [
+		 ],
+	"super" : "SnarlExternalRessources",
+	"type" : "normal" }
