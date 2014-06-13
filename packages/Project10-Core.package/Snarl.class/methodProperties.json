@@ -1,11 +1,13 @@
 {
 	"class" : {
 		"body:" : "MCJ 6/11/2014 18:39:30.712",
+		"externalNotificationClass" : "MCJ 6/13/2014 17:00:56.336",
 		"initialize" : "MCJ 6/11/2014 18:39:41.081",
 		"label:" : "MCJ 6/11/2014 18:39:52.643",
 		"label:body:" : "MCJ 6/11/2014 18:40:01.176",
 		"notification" : "JH 5/16/2014 15:56",
-		"open" : "Ju 6/6/2014 15:09",
+		"notify:with:" : "MCJ 6/13/2014 17:00:43.003",
+		"open" : "MCJ 6/13/2014 17:01:41.271",
 		"sound" : "MCJ 6/10/2014 14:51:36.309",
 		"soundBuffer" : "MCJ 6/10/2014 14:48:54.306",
 		"soundIsOn" : "MCJ 6/11/2014 18:43:48.397",
