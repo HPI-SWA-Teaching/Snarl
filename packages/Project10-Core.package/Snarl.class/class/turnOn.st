@@ -1,3 +1,3 @@
-as yet unclassified
+configuration
 turnOn
 	turnedOn := true

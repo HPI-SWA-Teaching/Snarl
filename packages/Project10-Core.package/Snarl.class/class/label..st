@@ -1,8 +1,4 @@
-as yet unclassified
+legacy
 label: label
-	turnedOn 
-	ifTrue: 
-		[^ self notification label: label; notifyWithSound: soundOn]
-	ifFalse:
-		[^ nil]
-	
+	"Snarl legacy"
+	self notify: label with: '' 

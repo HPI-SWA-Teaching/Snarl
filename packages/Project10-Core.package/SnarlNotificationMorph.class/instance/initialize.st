@@ -9,9 +9,7 @@ initialize
 	self useRoundedCorners.
 	self setProperty: #autoFitContents toValue: false.
 	self setTextStyle: self defaultTextStyle.
-	
-	sound := Snarl sound.
-	
+		
 	dismissHandle := self createDismissHandle.
 	self addMorph: dismissHandle.
 	

@@ -1,7 +1,4 @@
-as yet unclassified
+legacy
 body: body
-	turnedOn 
-	ifTrue:
-		[^ self notification body: body; notifyWithSound: soundOn]
-	ifFalse:
-		[^ nil]
+	"Snarl legacy"
+	self notify: '' with: body 

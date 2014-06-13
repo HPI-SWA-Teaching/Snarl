@@ -1,3 +1,3 @@
-as yet unclassified
+configuration
 soundOff
 	^soundOn := false.

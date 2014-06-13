@@ -1,0 +1,3 @@
+configuration
+setExternMode
+	mode:=#extern
