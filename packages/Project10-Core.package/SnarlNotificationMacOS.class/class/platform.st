@@ -1,3 +1,3 @@
 as yet unclassified
 platform
-	^'MacOS'
+	^'Mac OS'
