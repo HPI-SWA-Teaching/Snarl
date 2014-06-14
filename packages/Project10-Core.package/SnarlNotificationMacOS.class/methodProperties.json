@@ -1,6 +1,11 @@
 {
 	"class" : {
-		"notify:with:" : "MCJ 6/13/2014 17:34:25.548",
-		"platform" : "MCJ 6/13/2014 16:54:39.783" },
+		"ensureExistance" : "MCJ 6/14/2014 16:59:31.123",
+		"notify:with:" : "MCJ 6/14/2014 16:45:24.376",
+		"platform" : "MCJ 6/13/2014 16:54:39.783",
+		"resourceZIP" : "MCJ 6/14/2014 16:49:33.525",
+		"resources" : "MCJ 6/14/2014 16:50:07.18",
+		"system:" : "MCJ 6/14/2014 17:02:45.106",
+		"unzip" : "MCJ 6/14/2014 17:01:58.313" },
 	"instance" : {
 		 } }
