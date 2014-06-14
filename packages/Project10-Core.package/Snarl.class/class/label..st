@@ -1,4 +1,4 @@
 legacy
 label: label
 	"Snarl legacy"
-	self notify: label with: '' 
+	^self notify: label with: '' 

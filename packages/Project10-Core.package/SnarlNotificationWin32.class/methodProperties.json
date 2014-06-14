@@ -1,7 +1,14 @@
 {
 	"class" : {
-		"apiNotify:with:" : "MCJ 6/13/2014 17:06:12.837",
-		"notify:with:" : "MCJ 6/13/2014 17:55:09.048",
-		"platform" : "MCJ 6/13/2014 16:54:51.618" },
+		"apiNotify:with:iconpath:" : "MCJ 6/14/2014 15:19:03.658",
+		"apiNotify:with:icontype:" : "MCJ 6/14/2014 15:20:17.701",
+		"initialize" : "MCJ 6/14/2014 15:30:05.242",
+		"notify:with:" : "MCJ 6/14/2014 15:29:28.525",
+		"notify:with:iconType:" : "MCJ 6/14/2014 15:28:22.588",
+		"platform" : "MCJ 6/13/2014 16:54:51.618",
+		"resourceDLL" : "MCJ 6/14/2014 16:00:10.468",
+		"resourceIcon" : "MCJ 6/14/2014 15:47:17.903",
+		"resources" : "MCJ 6/14/2014 15:47:35.212",
+		"setDefaultIconType:" : "MCJ 6/14/2014 15:30:37.36" },
 	"instance" : {
 		 } }

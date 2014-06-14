@@ -7,7 +7,7 @@ testSoundOn
 	Snarl soundOn.
 	notification := Snarl label:'Test' body:'Test'.
 	self currentWorld runStepMethods.
-	self assert: (SoundPlayer isPlaying: (notification sound)).
+	self assert: (SoundPlayer isPlaying: (SnarlNotification sound)).
 	
 		
 	

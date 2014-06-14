@@ -9,4 +9,4 @@ notify: aTitle with: aText
 	(Notificationclass isNil) ifTrue:
 		[Notificationclass := SnarlNotificationIntern.
 		self error: 'Plattform wird nicht unterstützt.'].
-	Notificationclass notify: aTitle with: aText. 
+	^Notificationclass notify: aTitle with: aText. 

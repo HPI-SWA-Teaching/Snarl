@@ -1,10 +1,10 @@
 as yet unclassified
 testExternalRessources
 	| base64 |
-	SnarlWin32Ressources ensureExistance.
-	self assert: (StandardFileStream isAFileNamed: SnarlWin32Ressources ressourceName).
+	SnarlNotificationWin32 ensureExistance.
+	self assert: (StandardFileStream isAFileNamed: (SnarlNotificationWin32 resourceDLL at:1)).
 	
-	base64 := (SnarlWin32Ressources ressourceBase64) copyReplaceAll: String cr with: ''.
-	self assert: base64 size *6
-		equals: (StandardFileStream readOnlyFileNamed: SnarlWin32Ressources ressourceName) size *8.
+	base64 := (SnarlNotificationWin32 resourceDLL at:2) copyReplaceAll: String cr with: ''.
+	self assert: base64 size *6 // 8
+		equals: (StandardFileStream readOnlyFileNamed: (SnarlNotificationWin32 resourceDLL at:1)) size .
 	

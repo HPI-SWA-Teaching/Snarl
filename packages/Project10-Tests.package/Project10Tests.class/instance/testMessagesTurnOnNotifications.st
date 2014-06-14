@@ -1,8 +1,8 @@
 as yet unclassified
-testMessageTurnOnNotifications
+testMessagesTurnOnNotifications
 	"comment stating purpose of message"
 	|countDeferredUIMessages|	
-	Snarl turnOn.
+	Snarl turnOn setInternMode.
 	countDeferredUIMessages := WorldState deferredUIMessages size..
 	Snarl label:'Test' body:'Test'.
 	self assert: countDeferredUIMessages+1 equals: WorldState deferredUIMessages size.

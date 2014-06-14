@@ -1,3 +1,0 @@
-nil
-ressourceName
-	^'terminal-notifier'
