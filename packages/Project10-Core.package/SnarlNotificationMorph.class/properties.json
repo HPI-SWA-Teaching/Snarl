@@ -9,8 +9,7 @@
 		"dismissHandle",
 		"vanishTime",
 		"alpha",
-		"clickAction",
-		"sound" ],
+		"clickAction" ],
 	"name" : "SnarlNotificationMorph",
 	"pools" : [
 		 ],

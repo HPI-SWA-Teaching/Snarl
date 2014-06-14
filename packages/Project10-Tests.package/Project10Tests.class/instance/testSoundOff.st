@@ -2,6 +2,7 @@ as yet unclassified
 testSoundOff
 	"comment stating purpose of message"
 	|notification|	
+	SoundPlayer stopPlayingAll.
 	self currentWorld runStepMethods.
 	Snarl turnOn.
 	Snarl soundOff.

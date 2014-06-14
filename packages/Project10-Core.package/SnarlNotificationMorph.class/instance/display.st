@@ -6,5 +6,4 @@ display
 		World addMorph: self.
 		self resetVanishTimer.
 		self startStepping.
-		SnarlNotification sound play.
 		].
