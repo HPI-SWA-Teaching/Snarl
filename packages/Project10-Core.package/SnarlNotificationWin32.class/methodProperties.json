@@ -2,12 +2,12 @@
 	"class" : {
 		"apiNotify:with:iconpath:" : "MCJ 6/14/2014 16:45:49.684",
 		"apiNotify:with:icontype:" : "MCJ 6/14/2014 16:45:46.077",
-		"initialize" : "MCJ 6/14/2014 15:30:05.242",
+		"initialize" : "MCJ 6/15/2014 21:25",
 		"notify:with:" : "MCJ 6/14/2014 15:29:28.525",
 		"notify:with:iconType:" : "MCJ 6/14/2014 17:56:32.644",
 		"platform" : "MCJ 6/13/2014 16:54:51.618",
-		"resourceDLL" : "MCJ 6/14/2014 16:47:21.165",
-		"resourceIcon" : "MCJ 6/14/2014 15:47:17.903",
+		"resourceDLL" : "MCJ 6/17/2014 15:41",
+		"resourceIcon" : "MCJ 6/17/2014 15:41",
 		"resources" : "MCJ 6/14/2014 15:47:35.212",
 		"setDefaultIconType:" : "MCJ 6/14/2014 15:30:37.36" },
 	"instance" : {

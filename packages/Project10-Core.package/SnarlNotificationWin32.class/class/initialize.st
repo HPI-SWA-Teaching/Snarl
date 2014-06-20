@@ -1,3 +1,3 @@
 as yet unclassified
 initialize
-	DefaultIconType := 3
+	DefaultIconType := 4

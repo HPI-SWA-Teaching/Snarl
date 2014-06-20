@@ -2,9 +2,9 @@ API
 notify: aTitle with: aText
 | Notificationclass |
 	(self turnedOn) ifFalse: [^true].
-	(mode = #extern) ifTrue:
+	(mode = #external) ifTrue:
 		[Notificationclass := Snarl externalNotificationClass].
-	(mode = #intern) ifTrue:
+	(mode = #internal) ifTrue:
 		[Notificationclass := SnarlNotificationIntern].
 	(Notificationclass isNil) ifTrue:
 		[Notificationclass := SnarlNotificationIntern.

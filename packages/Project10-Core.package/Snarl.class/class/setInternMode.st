@@ -1,3 +1,0 @@
-configuration
-setInternMode
-	mode:=#intern
