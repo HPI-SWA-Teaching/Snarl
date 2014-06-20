@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"initialize" : "DOT 6/20/2014 17:41",
+		"loadResources" : "DOT 6/20/2014 17:41",
+		"setExternMode" : "DOT 6/20/2014 17:06",
+		"setInternMode" : "DOT 6/20/2014 17:06",
+		"toggleEnabled" : "DOT 6/20/2014 17:17",
+		"toggleSound" : "DOT 6/20/2014 17:34" } }

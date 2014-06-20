@@ -1,3 +1,3 @@
 as yet unclassified
 resources
-	^{self resourceZIP}
+	^{self resourcePythonScript}

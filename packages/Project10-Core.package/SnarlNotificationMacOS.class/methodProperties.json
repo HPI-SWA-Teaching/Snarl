@@ -1,11 +1,9 @@
 {
 	"class" : {
-		"createFile:with:" : "MCJ 6/14/2014 17:56:57.891",
-		"notify:with:" : "MCJ 6/14/2014 17:56:18.054",
+		"notify:with:" : "MCJ 6/20/2014 18:13",
 		"platform" : "MCJ 6/13/2014 16:54:39.783",
-		"resourceZIP" : "MCJ 6/17/2014 15:40",
-		"resources" : "MCJ 6/14/2014 16:50:07.18",
-		"system:" : "MCJ 6/14/2014 17:02:45.106",
-		"unzip" : "MCJ 6/14/2014 17:01:58.313" },
+		"resourcePythonScript" : "MCJ 6/20/2014 18:13",
+		"resources" : "MCJ 6/20/2014 17:44",
+		"system:" : "MCJ 6/14/2014 17:02:45.106" },
 	"instance" : {
 		 } }

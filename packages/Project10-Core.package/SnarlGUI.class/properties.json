@@ -1,0 +1,23 @@
+{
+	"category" : "Project10-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"window",
+		"soundButton",
+		"enabledButton",
+		"externButton",
+		"soundOnImage",
+		"soundOffImage",
+		"powerOnImage",
+		"powerOffImage",
+		"externImage",
+		"internImage" ],
+	"name" : "SnarlGUI",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
