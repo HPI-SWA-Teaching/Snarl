@@ -3,21 +3,20 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Current" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"window",
+		"images",
+		"title",
 		"soundButton",
-		"enabledButton",
-		"externButton",
-		"soundOnImage",
-		"soundOffImage",
-		"powerOnImage",
-		"powerOffImage",
-		"externImage",
-		"internImage" ],
+		"modeButton",
+		"switch",
+		"internal",
+		"external",
+		"soundOn",
+		"soundOff" ],
 	"name" : "SnarlGUI",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "RectangleMorph",
 	"type" : "normal" }
