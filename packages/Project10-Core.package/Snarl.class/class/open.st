@@ -1,3 +1,3 @@
 as yet unclassified
 open
-	SnarlPreferencesMorph open.
+	SnarlGUI open.
