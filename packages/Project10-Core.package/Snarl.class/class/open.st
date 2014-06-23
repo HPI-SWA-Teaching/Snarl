@@ -1,3 +1,3 @@
 as yet unclassified
 open
-	SnarlGUI open.
+	(SnarlGUI get) openInWorld.
