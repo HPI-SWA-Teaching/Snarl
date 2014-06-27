@@ -1,3 +1,3 @@
 as yet unclassified
-notify: aTitle with: aText
+notifyWithLabel: aTitle body: aText
 	self notify: aTitle with: aText iconType: DefaultIconType.

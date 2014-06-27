@@ -1,4 +1,4 @@
 legacy
 body: body
 	"Snarl legacy"
-	^self notify: '' with: body 
+	^self notifyWithLabel: '' body: body 

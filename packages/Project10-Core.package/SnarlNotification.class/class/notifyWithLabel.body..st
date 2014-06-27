@@ -1,3 +1,3 @@
 as yet unclassified
-notify: aTitle with: aText
+notifyWithLabel: aLabel body: aBody
 	self subclassResponsibility.

@@ -1,5 +1,5 @@
 API
-notify: aTitle with: aText
+notifyWithLabel: aLabel body:aBody icon: iconType
 | Notificationclass |
 	(self turnedOn) ifFalse: [^true].
 	(mode = #external) ifTrue:
@@ -9,4 +9,4 @@ notify: aTitle with: aText
 	(Notificationclass isNil) ifTrue:
 		[Notificationclass := SnarlNotificationIntern.
 		self error: 'Plattform wird nicht unterstützt.'].
-	^Notificationclass notify: aTitle with: aText. 
+	^Notificationclass notifyWithLabel: aLabel body: aBody icon: iconType. 
