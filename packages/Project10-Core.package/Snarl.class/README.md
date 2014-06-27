@@ -1,11 +1,11 @@
 I have no instance-side protocol: my class-side protocol is used to construct and display instances of SnarlNotificationMorph. Use me to notify the user of events interesting enough to display, but not interesting enough to interrupt whatever the user is doing. See also the class comment for SnarlNotificationMorph.
 
 	Snarl label: 'Something happened!' body: 'An important event just occurred.'
-	(Snarl body: 'Click here.') clickAction: [Snarl body: 'Boo!']
-	(Snarl body: 'Click here.') clickAction: [:morph | morph delete. Snarl label: 'Boo!']
 	Snarl label: 'The time' body: (TimeStamp now)
 
-Copyright (c) 2009 Tony Garnock-Jones
+	For Preferences like soundOn or turnOff notifications please go to Apps and then Snarl-Preferences
+	
+2014 SWT-Project10
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
