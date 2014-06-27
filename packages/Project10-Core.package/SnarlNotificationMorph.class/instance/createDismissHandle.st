@@ -3,9 +3,7 @@ createDismissHandle
 	| b handleSize handle form image |
 	handleSize := 16 asPoint.
 	b := Rectangle
-			center: (self topLeft + ((self borderWidth + (self margins left // 2)) @
-										(self paragraph compositionRectangle top +
-											(handleSize y // 2))))
+			origin: self position + (3@3)
 			extent: handleSize.
 	handle := EllipseMorph newBounds: b color: Color lightRed.
 	handle borderColor: handle color muchDarker.

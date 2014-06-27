@@ -1,3 +1,3 @@
 as yet unclassified
 defaultBackgroundColor
-	^ Color darkGray
+	^(Color r:194 g:219 b:116).

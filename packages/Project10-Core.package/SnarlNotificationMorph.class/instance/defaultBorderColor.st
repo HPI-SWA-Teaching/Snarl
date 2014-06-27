@@ -1,3 +1,3 @@
 as yet unclassified
 defaultBorderColor
-	^ Color white
+	^ Color black

@@ -1,3 +1,3 @@
 as yet unclassified
 defaultTextStyle
-	^ TextStyle named: 'BitstreamVeraSans'
+	^TextStyle named: 'BitstreamVeraSans'
