@@ -6,7 +6,7 @@ initializeModeButton
 	sideLength := ((images at: 'external') width +10).
 	distanceSoundButtonToModeButton := 5.
 	modeButton := SimpleButtonMorph new label: ''.
-	modeButton color: (Color r:194 g:219 b:116).
+	modeButton color: self defaultColor.
 	modeButton width: sideLength; height: sideLength.
 	modeButton left: soundButton left.
 	modeButton top: soundButton bottom + distanceSoundButtonToModeButton.

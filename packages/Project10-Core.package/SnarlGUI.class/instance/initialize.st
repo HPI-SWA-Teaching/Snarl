@@ -8,4 +8,5 @@ initialize
 	self initializeModeButton.
 	self initializeSwitch.
 	self initializeDescriptions.
+	self initializeCloseButton.
 	self openInWorld.

@@ -1,6 +1,6 @@
 initialization
 initializeDescriptions
-	|soundField modeField distanceButtonToString|
+	|soundField modeField switchField distanceButtonToString|
 	
 	distanceButtonToString := 10.
 		
@@ -12,4 +12,8 @@ initializeDescriptions
 	modeField center: (0@modeButton center y).
 	modeField left: (modeButton right + distanceButtonToString).
 	
-	self addMorph: soundField; addMorph: modeField.
+	switchField:= StringMorph new; contents:'Notifications on/off'.
+	switchField center: (0@switch center y).
+	switchField left: (switch right + distanceButtonToString).
+	
+	self addMorph: soundField; addMorph: modeField; addMorph: switchField.
