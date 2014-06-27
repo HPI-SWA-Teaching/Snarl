@@ -1,4 +1,4 @@
 as yet unclassified
-notifyWithLabel: aLabel body: aBody icon: icon
+notifyWithLabel: aLabel body: aBody icon: iconType
 
 self subclassResponsibility.
