@@ -1,7 +1,7 @@
 as yet unclassified
 loadResources 
 	|path files|
-	path := 'icons', FileDirectory slash.
+	path := 'Snarl', FileDirectory slash.
 	files := Dictionary new.
 	images := Dictionary new.
 	files 

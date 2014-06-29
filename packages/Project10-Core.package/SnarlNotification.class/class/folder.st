@@ -1,3 +1,6 @@
 Resourcemanagment
 folder
-	^FileDirectory default.
+	|path|
+	path := FileDirectory default / 'Snarl'. 
+	path assureExistence.
+	^path
