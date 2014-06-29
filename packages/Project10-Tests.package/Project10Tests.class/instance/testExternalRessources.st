@@ -6,5 +6,5 @@ testExternalRessources
 	
 	base64 := (SnarlNotificationWin32 resourceDLL at:2) copyReplaceAll: String cr with: ''.
 	self assert: base64 size *6 // 8
-		equals: (StandardFileStream readOnlyFileNamed: (SnarlNotificationWin32 resourceDLL at:1)) size .
+		equals: (StandardFileStream readOnlyFileNamed: (SnarlNotificationWin32 folder fullNameFor: (SnarlNotificationWin32 resourceDLL at:1))) size .
 	
