@@ -1,3 +1,3 @@
 API
 notifyWithLabel: aLabel body:aBody
-	self notifyWithLabel: aLabel body: aBody icon: #Squeak
+	^self notifyWithLabel: aLabel body: aBody icon: #Squeak
