@@ -1,3 +1,2 @@
 as yet unclassified
-iconSize
-	^(40@40)
+resourceIconStandBy

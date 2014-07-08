@@ -5,7 +5,7 @@ initialize
 	self backgroundColor: self defaultBackgroundColor.
 	self borderColor: self defaultBorderColor.
 	self borderWidth: 0.
-	self margins: ((24+self iconSize y)@4 corner: 24@4).
+	self margins: ((24+5+self iconSize y)@15 corner: 24@15).
 	self useRoundedCorners.
 	self setProperty: #autoFitContents toValue: false.
 	self setTextStyle: self defaultTextStyle.
