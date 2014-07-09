@@ -1,3 +1,3 @@
-as yet unclassified
+layout
 defaultTextStyle
 	^TextStyle named: 'BitstreamVeraSans'

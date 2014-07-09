@@ -1,4 +1,4 @@
-as yet unclassified
+layout
 alpha: newAlpha
 	alpha = newAlpha ifTrue: [^ self].
 

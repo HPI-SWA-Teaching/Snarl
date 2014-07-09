@@ -1,4 +1,4 @@
-as yet unclassified
+position
 unoccupiedPosition
 	| b morphs |
 	b := (World topRight - (self width @ 0)) extent: self extent.

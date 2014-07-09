@@ -1,4 +1,4 @@
-as yet unclassified
+layout
 createDismissHandle
 	| b handleSize handle form image |
 	handleSize := 16 asPoint.

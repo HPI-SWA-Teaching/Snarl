@@ -1,10 +1,25 @@
-I have no instance-side protocol: my class-side protocol is used to construct and display instances of SnarlNotificationMorph. Use me to notify the user of events interesting enough to display, but not interesting enough to interrupt whatever the user is doing. See also the class comment for SnarlNotificationMorph.
-
-	Snarl label: 'Something happened!' body: 'An important event just occurred.'
-	Snarl label: 'The time' body: (TimeStamp now)
-
-	For Preferences like soundOn or turnOff notifications please go to Apps and then Snarl-Preferences
+Use me to notify the user of events interesting enough to display, but not interesting enough to interrupt whatever the user is doing. You can use me very easily. Just copy one of this lines to your code and i will notify the user:
 	
+	Snarl notifyWithLabel: 'Something happened!' body: 'An important event just occurred.'
+	Snarl notifyWithLabel: 'The time' body: (TimeStamp now)
+	
+	Body is a the title and body is the text under the title.
+	
+	If you want to emphase the message, you can change the icon type to: #Error, #Warning, #Information
+	
+	Snarl notifyWithLabel: 'The time' body: (TimeStamp now) icon: #Information
+	
+Users Preferences:
+	You can change my preferences by going to Apps - Snarl
+	If you want to set my preferences in workspace, you have these options:
+		Snarl soundOn
+		Snarl soundOff
+		Snarl setInternalMode 
+		Snarl setExternalMode 
+		Snarl turnOn
+		Snarl turnOff
+	
+
 2014 SWT-Project10
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

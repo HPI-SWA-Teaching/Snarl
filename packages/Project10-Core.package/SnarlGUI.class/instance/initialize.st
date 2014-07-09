@@ -1,6 +1,7 @@
 initialization
 initialize 
 	super initialize. 
+	SnarlGUIResources ensureExistance.
 	self loadResources.
 	self initializeBackground.
 	self initializeTitle.

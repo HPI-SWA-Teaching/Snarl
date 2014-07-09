@@ -1,3 +1,3 @@
-as yet unclassified
+layout
 iconSize
 	^(40@40)

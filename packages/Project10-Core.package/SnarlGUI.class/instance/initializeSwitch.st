@@ -2,7 +2,7 @@ initialization
 initializeSwitch
 	|switchImage sideLength distanceSwitchButtonToModeButton|
 	
-	switchImage:= ImageMorph new newForm: (images at: 'standby').
+	switchImage:= images at: 'standby'.
 	sideLength := switchImage width + 10.
 	distanceSwitchButtonToModeButton :=5.
 	

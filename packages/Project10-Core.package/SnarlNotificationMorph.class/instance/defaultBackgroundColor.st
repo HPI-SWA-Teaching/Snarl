@@ -1,3 +1,3 @@
-as yet unclassified
+layout
 defaultBackgroundColor
 	^Color white

@@ -1,5 +1,11 @@
 {
 	"class" : {
-		"resourceIconStandBy" : "MCJ 6/29/2014 22:42" },
+		"resourceIconExternal" : "MCJ 7/9/2014 16:50",
+		"resourceIconInternal" : "MCJ 7/9/2014 16:50",
+		"resourceIconMute" : "MCJ 7/9/2014 16:11",
+		"resourceIconSpeaker" : "MCJ 7/9/2014 16:11",
+		"resourceIconSqueak" : "MCJ 7/9/2014 16:22",
+		"resourceIconStandBy" : "MCJ 7/9/2014 16:11",
+		"resources" : "MCJ 7/9/2014 16:55" },
 	"instance" : {
 		 } }

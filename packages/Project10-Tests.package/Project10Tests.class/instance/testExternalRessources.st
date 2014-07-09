@@ -1,10 +1,16 @@
 as yet unclassified
 testExternalRessources
-	| base64 |
-	SnarlNotificationWin32 ensureExistance.
-	self assert: (StandardFileStream isAFileNamed: (SnarlNotificationWin32 folder fullNameFor: (SnarlNotificationWin32 resourceDLL at:1))).
-	
-	base64 := (SnarlNotificationWin32 resourceDLL at:2) copyReplaceAll: String cr with: ''.
-	self assert: base64 size *6 // 8
-		equals: (StandardFileStream readOnlyFileNamed: (SnarlNotificationWin32 folder fullNameFor: (SnarlNotificationWin32 resourceDLL at:1))) size .
+	| file contents |
+	{SnarlNotificationWin32 . SnarlNotificationIntern . SnarlNotificationMacOS . SnarlGUIResources . SnarlSoundResource}
+		do:[:resourceClass| 
+			resourceClass ensureExistance.
+			resourceClass resources do:[:resource|
+				file := StandardFileStream readOnlyFileNamed: (resourceClass folder fullNameFor: (resource at:1)).
+				contents := file contents.
+				file close.
+				self assert: (contents = (resource at: 2) base64Decoded ).				
+				
+				]						
+			]
+
 	

@@ -9,7 +9,6 @@ initialize
 	self useRoundedCorners.
 	self setProperty: #autoFitContents toValue: false.
 	self setTextStyle: self defaultTextStyle.
-	self loadResources.
 
 	dismissHandle := self createDismissHandle.
 	self addMorph: dismissHandle.
