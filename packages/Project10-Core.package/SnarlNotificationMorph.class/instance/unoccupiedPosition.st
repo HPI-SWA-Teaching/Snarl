@@ -1,9 +1,13 @@
 position
 unoccupiedPosition
-	| b morphs |
-	b := (World topRight - (self width @ 0)) extent: self extent.
+	| morphs currentExtent |
 	morphs := SnarlNotificationMorph allSubInstances select: [:m | m world == World].
-	[self is: b saneWithRespectTo: morphs] whileFalse: [
-		b := b translateBy: 0@10.
-		b bottom > World height ifTrue: [^ (World topRight - (self width @ 0))]].
-	^ b origin
+	
+	currentExtent := (World topRight - (self width @ 0) + (0 @ 18)) extent: self extent.
+	
+	[self is: currentExtent overlapedByAnyOf: morphs] whileTrue: [
+		currentExtent := currentExtent translateBy: 0@10.
+		currentExtent bottom > World height ifTrue: 
+			[currentExtent := (currentExtent left - self width -5 @ 18) extent: self extent.].
+		].
+	^ currentExtent origin 

@@ -1,3 +1,3 @@
 as yet unclassified
 vanishDelay
-	^ 30 seconds
+	^ 15 seconds

@@ -10,4 +10,5 @@ initialize
 	self initializeSwitch.
 	self initializeDescriptions.
 	self initializeCloseButton.
+	self initializeTestHelpButton.
 	self openInWorld.
