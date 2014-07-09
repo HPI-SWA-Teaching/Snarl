@@ -6,7 +6,4 @@ notifyWithLabel: aLabel body:aBody icon: iconType
 		[Notificationclass := Snarl externalNotificationClass].
 	(mode = #internal) ifTrue:
 		[Notificationclass := SnarlNotificationIntern].
-	(Notificationclass isNil) ifTrue:
-		[Notificationclass := SnarlNotificationIntern.
-		self error: 'Plattform wird nicht unterstützt.'].
 	^Notificationclass notifyWithLabel: aLabel body: aBody icon: iconType. 
