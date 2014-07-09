@@ -21,6 +21,27 @@ Users Preferences:
 	
 
 2014 SWT-Project10
+Jan-Peter Heuzeroth, Juliane Imme, Michael Janke,
+Onat Türkçüoğlu, Tamara Slosarek
+
+sound: by Kastenfrosch (http://www.freesound.org/people/Kastenfrosch/sounds/162464/) (CC0)
+
+ICONS:
+
+speaker: Drawn with Inkscape by Tamara Slosarek based on Speaker designed by Harold Kim from the Noun Project (http://thenounproject.com/term/speaker/1898/) (CC -- Attribution)
+speaker_mute: Drawn with Inkscape by Tamara Slosarek based on Speaker designed by Harold Kim from the Noun Project (http://thenounproject.com/term/speaker/1898/) (CC -- Attribution)
+
+standby: Drawn with Inkscape by Tamara Slosarek based on Power designed by useiconic.com from the Noun Project (http://thenounproject.com/term/power/45462/) (CC -- Attribution)
+
+internal: Drawn with Inkscape by Tamara Slosarek based on Internal designed by Icons8 from the Noun Project (http://thenounproject.com/term/internal/50357/) (CC -- Attribution)
+external: Drawn with Inkscape by Tamara Slosarek based on External designed by Icons8 from the Noun Project (http://thenounproject.com/term/external/50351/) (CC -- Attribution)
+
+squeak: 
+error: Drawn with Inkscape by Tamara Slosarek
+warning: Drawn with Inkscape by Tamara Slosarek
+information: Drawn with Inkscape by Tamara Slosarek
+
+
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
