@@ -1,13 +1,17 @@
 Use me to notify the user of events interesting enough to display, but not interesting enough to interrupt whatever the user is doing. You can use me very easily. Just copy one of this lines to your code and i will notify the user:
 	
 	Snarl notifyWithLabel: 'Something happened!' body: 'An important event just occurred.'
-	Snarl notifyWithLabel: 'The time' body: (TimeStamp now)
+	Snarl notifyWithLabel: 'The time' body: (TimeStamp now) asString
 	
-	Body is a the title and body is the text under the title.
+	Label is a the title and body is the text under the title.
 	
-	If you want to emphase the message, you can change the icon type to: #Error, #Warning, #Information
+	If you want to emphase the message, you can change the icon type from the standard #Squeak to: 
+		#Error 
+		#Warning
+		#Information
 	
-	Snarl notifyWithLabel: 'The time' body: (TimeStamp now) icon: #Information
+	Snarl notifyWithLabel: 'The time' body: (TimeStamp now) asString icon: #Information
+		
 	
 Users Preferences:
 	You can change my preferences by going to Apps - Snarl
@@ -24,12 +28,13 @@ Users Preferences:
 Jan-Peter Heuzeroth, Juliane Imme, Michael Janke,
 Onat Türkçüoğlu, Tamara Slosarek
 
+Thanks to: Tony Garnock-Jones (Snarl Developer)
+
 sound: by Kastenfrosch (http://www.freesound.org/people/Kastenfrosch/sounds/162464/) (CC0)
 
 ICONS:
 
-speaker: Drawn with Inkscape by Tamara Slosarek based on Speaker designed by Harold Kim from the Noun Project (http://thenounproject.com/term/speaker/1898/) (CC -- Attribution)
-speaker_mute: Drawn with Inkscape by Tamara Slosarek based on Speaker designed by Harold Kim from the Noun Project (http://thenounproject.com/term/speaker/1898/) (CC -- Attribution)
+speaker/ speaker_mute: Drawn with Inkscape by Tamara Slosarek based on Speaker designed by Harold Kim from the Noun Project (http://thenounproject.com/term/speaker/1898/) (CC -- Attribution)
 
 standby: Drawn with Inkscape by Tamara Slosarek based on Power designed by useiconic.com from the Noun Project (http://thenounproject.com/term/power/45462/) (CC -- Attribution)
 
