@@ -1,12 +1,12 @@
 initialization
 initializeModeImages
 	
-	external := images at: 'external'.
-	internal := images at: 'internal'.
-	external center: (modeButton center).
-	internal center: (modeButton center).
-	modeButton addMorph: external; addMorph: internal.
+	externalImage := images at: 'external'.
+	internalImage := images at: 'internal'.
+	externalImage center: (modeButton center).
+	internalImage center: (modeButton center).
+	modeButton addMorph: externalImage; addMorph: internalImage.
 	
 	Snarl mode = #external
-		ifTrue: [	internal hide]
-		ifFalse: [external hide].
+		ifTrue: [	internalImage hide]
+		ifFalse: [externalImage hide].

@@ -9,5 +9,5 @@ iconWithAlpha: newAlpha
 		new := (alpha * newAlpha) asInteger .
 		new := new bitShift: 24.
 		color := (color bitAnd: (alphaMask bitInvert)) bitOr: new. 
-		color.
+		color
 	].

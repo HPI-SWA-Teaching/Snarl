@@ -1,19 +1,21 @@
 {
 	"class" : {
-		"get" : "MCJ 7/9/2014 18:56",
-		"reset" : "Ju 6/27/2014 15:51" },
+		"get" : "MCJ 7/9/2014 18:56" },
 	"instance" : {
 		"defaultColor" : "Ju 6/27/2014 15:04",
 		"imageSize" : "MCJ 7/9/2014 15:59",
 		"initialize" : "MCJ 7/9/2014 18:51",
 		"initializeBackground" : "MCJ 7/9/2014 18:11",
+		"initializeButtons" : "MCJ 7/11/2014 16:59:17.777",
 		"initializeCloseButton" : "Ju 6/27/2014 15:41",
 		"initializeDescriptions" : "MCJ 7/9/2014 16:14",
+		"initializeHelpButton" : "MCJ 7/11/2014 16:59:17.777",
 		"initializeModeButton" : "Ju 6/27/2014 15:04",
 		"initializeModeImages" : "MCJ 7/9/2014 15:50",
 		"initializeSoundButton" : "ts 7/9/2014 19:27",
 		"initializeSoundImages" : "MCJ 7/9/2014 15:57",
 		"initializeSwitch" : "MCJ 7/9/2014 15:50",
+		"initializeTestButton" : "MCJ 7/11/2014 16:59:17.777",
 		"initializeTestHelpButton" : "MCJ 7/11/2014 16:01",
 		"initializeTitle" : "Ju 6/21/2014 17:20",
 		"loadResources" : "MCJ 7/9/2014 15:47",
