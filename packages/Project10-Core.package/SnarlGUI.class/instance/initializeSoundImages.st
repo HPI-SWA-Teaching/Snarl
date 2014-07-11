@@ -1,12 +1,12 @@
 initialization
 initializeSoundImages
 	
-	soundOnImage := images at: 'speaker'.
-	soundOffImage := images at: 'mute'.
-	soundOnImage center: (soundButton center).
-	soundOffImage center: (soundButton center).
-	soundButton addMorph: soundOnImage; addMorph: soundOffImage.
+	soundOn := images at: 'speaker'.
+	soundOff := images at: 'mute'.
+	soundOn center: (soundButton center).
+	soundOff center: (soundButton center).
+	soundButton addMorph: soundOn; addMorph: soundOff.
 	
 	Snarl soundIsOn 
-		ifTrue: [soundOffImage hide]
-		ifFalse: [soundOnImage hide].
+		ifTrue: [soundOff hide]
+		ifFalse: [soundOn hide].

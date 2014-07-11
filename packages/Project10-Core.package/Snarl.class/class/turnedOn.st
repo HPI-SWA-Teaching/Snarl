@@ -1,0 +1,3 @@
+configuration
+turnedOn
+	^turnedOn
