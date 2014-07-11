@@ -5,12 +5,12 @@ Use me to notify the user of events interesting enough to display, but not inter
 	
 	Label is a the title and body is the text under the title.
 	
-	If you want to emphase the message, you can change the icon type from the standard #Squeak to: 
+	If you want to emphase the message, you can change the icon type from the standard 		#Squeak to: 
 		#Error 
 		#Warning
 		#Information
 	
-	Snarl notifyWithLabel: 'The time' body: (TimeStamp now) asString icon: #Information
+	Snarl notifyWithLabel: 'The time' body: (TimeStamp now) asString type: #Information
 		
 	
 Users Preferences:
