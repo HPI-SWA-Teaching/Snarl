@@ -5,7 +5,7 @@ initializeTestHelpButton
 	test := SimpleButtonMorph new label: 'Test'.
 	test color: self defaultColor; width: self width / 2 -20;
 	left: modeButton left; top: switch bottom + 5.
-	test on: #mouseDown send: #value to: [Snarl notifyWithLabel: 'Test' body: 'This is a test' icon: #Information. ].
+	test on: #mouseDown send: #value to: [Snarl notifyWithLabel: 'Test' body: 'This is a test' type: #Information. ].
 	self addMorph: test.
 	
 	help := SimpleButtonMorph new label: 'Help'.
