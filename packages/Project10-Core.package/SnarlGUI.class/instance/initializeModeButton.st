@@ -1,15 +1,20 @@
 initialization
 initializeModeButton
 	
-	|sideLength distanceSoundButtonToModeButton|
+	|sideLength description|
 	
 	sideLength := ((images at: 'external') width +10).
-	distanceSoundButtonToModeButton := 5.
+	
 	modeButton := SimpleButtonMorph new label: ''.
-	modeButton color: self defaultColor.
-	modeButton width: sideLength; height: sideLength.
-	modeButton left: soundButton left.
-	modeButton top: soundButton bottom + distanceSoundButtonToModeButton.
-	self initializeModeImages.
+	modeButton color: self defaultColor;
+				  width: sideLength; height: sideLength;
+		              left: soundButton left;
+				  top: soundButton bottom + self distanceBetweenButtons.
 	modeButton on: #mouseDown send: #value to: [self toggleMode].
-	self addMorph: modeButton.
+	self initializeModeImages.
+	
+	description:= StringMorph new; contents:'Mode extern/intern'.
+	description center: (0@modeButton center y).
+	description left: (modeButton right + self distanceButtonToDescription ).
+	
+	self addMorph: modeButton; addMorph: description.

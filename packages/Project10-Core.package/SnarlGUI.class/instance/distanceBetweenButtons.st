@@ -1,0 +1,3 @@
+initialization
+distanceBetweenButtons
+	^ 5

@@ -1,3 +1,5 @@
 Resourcemanagment
 ensureExistance
-	self resources do: [:resource| self ensureExistanceOfResource: resource]
+	self resources 
+		do: [:resource| 
+			  self ensureExistanceOfResource: resource]

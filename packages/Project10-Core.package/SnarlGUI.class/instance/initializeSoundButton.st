@@ -1,18 +1,22 @@
 initialization
 initializeSoundButton
-	|sideLength distanceWindowToSoundButton distanceTitleToSoundButton|
+	|sideLength distanceWindowToSoundButton description|
 	
 	sideLength := self imageSize x + 10.
 	distanceWindowToSoundButton := 10.
-	distanceTitleToSoundButton := 5.
-	
+		
 	soundButton := SimpleButtonMorph new label: ''.
 	Snarl soundIsOn
-		ifTrue:  [soundButton color: (Color r:0.2 g: 0.7 b:0.1)]
-		ifFalse: [soundButton color: (Color r:0.7 g:0.3 b:0.1)].
-	soundButton width: sideLength; height: sideLength.
-	soundButton left: self left + distanceWindowToSoundButton.
-	soundButton top: title bottom + distanceTitleToSoundButton.
-	self initializeSoundImages.
+		ifTrue:  [soundButton color: self colorGreen]
+		ifFalse: [soundButton color: self colorRed].
+	soundButton width: sideLength; height: sideLength;
+				   left: self left + distanceWindowToSoundButton;
+		              top: title bottom + self distanceBetweenButtons.
 	soundButton on: #mouseDown send: #value to: [self toggleSound].
-	self addMorph: soundButton.
+	self initializeSoundImages.
+	
+	description:= StringMorph new; contents:'Sound on/off'.
+	description center: (0@soundButton center y).
+	description left: (soundButton right + self distanceButtonToDescription ).
+	
+	self addMorph: soundButton; addMorph: description.

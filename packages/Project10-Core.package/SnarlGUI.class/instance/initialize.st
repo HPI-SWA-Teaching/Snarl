@@ -6,5 +6,4 @@ initialize
 	       initializeBackground;
 		 initializeTitle;
 		 initializeButtons;
-	       initializeDescriptions;
              openInWorld.

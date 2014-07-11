@@ -4,5 +4,4 @@ initializeButtons
 	       initializeModeButton;
 	       initializeSwitch;
 	       initializeCloseButton;
-	       initializeTestButton;
-		 initializeHelpButton.
+	       initializeTestHelpButtons.

@@ -1,19 +1,23 @@
 initialization
 initializeSwitch
-	|switchImage sideLength distanceSwitchButtonToModeButton|
+	|switchImage sideLength description|
 	
 	switchImage:= images at: 'standby'.
 	sideLength := switchImage width + 10.
-	distanceSwitchButtonToModeButton :=5.
 	
 	switch := SimpleButtonMorph new label: ''.
-	Snarl turnedOn 
-		ifTrue: [switch color: (Color r: 0.2 g: 0.7 b:0.1).]
-		ifFalse: [switch color: (Color r:0.7 g:0.3 b:0.1).].
-	switch width: sideLength; height: sideLength.
-	switch left: modeButton left.
-	switch top: modeButton bottom + distanceSwitchButtonToModeButton.
+	Snarl isTurnedOn 
+		ifTrue: [switch color: self colorGreen.]
+		ifFalse: [switch color: self colorRed].
+	switch width: sideLength; height: sideLength;
+	           left: modeButton left;
+		     top: modeButton bottom + self distanceBetweenButtons.
 	switchImage center: (switch center).
 	switch addMorph: switchImage.
 	switch on: #mouseDown send: #value to: [self toggleSwitch].
-	self addMorph: switch.
+	
+	description:= StringMorph new; contents:'Notifications on/off'.
+	description center: (0@switch center y).
+	description left: (switch right + self distanceButtonToDescription).
+	
+	self addMorph: switch; addMorph: description.

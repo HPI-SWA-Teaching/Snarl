@@ -1,4 +1,4 @@
-initialization
+action
 openHelp
 	| help container close|
 	help := ScrollableField new.
@@ -12,7 +12,7 @@ openHelp
 	container := Morph new color: Color transparent.
 	
 	close := SimpleButtonMorph new label: 'close'; 
-		on: #mouseDown send: #value to: [container delete.].
+		        on: #mouseDown send: #value to: [container delete.].
 	help top: close height.
 	container addMorph: close; addMorph: help.
 	

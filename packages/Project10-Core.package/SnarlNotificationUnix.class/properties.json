@@ -1,16 +1,14 @@
 {
 	"category" : "Project10-Core",
 	"classinstvars" : [
-		"isTurnedOn",
-		"soundIsOn",
-		"mode" ],
+		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "ts 7/11/2014 14:02",
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "Snarl",
+	"name" : "SnarlNotificationUnix",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "SnarlNotification",
 	"type" : "normal" }

@@ -1,3 +1,3 @@
-as yet unclassified
+action
 platform
 	^self subclassResponsibility.

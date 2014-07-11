@@ -1,3 +1,4 @@
-as yet unclassified
+action
 playSound
-	Snarl soundIsOn ifTrue: [self sound play].
+	Snarl soundIsOn 
+		ifTrue: [self sound play].
