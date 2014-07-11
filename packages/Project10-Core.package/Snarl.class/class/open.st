@@ -1,3 +1,3 @@
-as yet unclassified
+configuration
 open
 	SnarlGUI get openInWorld.

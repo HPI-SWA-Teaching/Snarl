@@ -1,4 +1,7 @@
-as yet unclassified
+access
 get
-	SnarlGUIResources ensureExistance.
-	^self new.
+SnarlGUIResources ensureExistance.
+self allInstancesDo: [ :inst |  
+			inst isInWorld
+				ifTrue: [^inst].].
+^self new.

@@ -1,0 +1,3 @@
+accessing
+isTurnedOn
+	^isTurnedOn

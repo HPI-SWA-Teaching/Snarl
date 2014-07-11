@@ -1,3 +1,3 @@
 configuration
 toggleSound
-	^soundOn := soundOn not.
+	^soundIsOn := soundIsOn not.

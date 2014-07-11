@@ -1,4 +1,4 @@
 configuration
 soundOff
-	soundOn := false.
+	soundIsOn := false.
 	^self.
