@@ -1,4 +1,4 @@
 configuration
 turnOn
-	isTurnedOn := true.
+	turnedOn := true.
 	^self

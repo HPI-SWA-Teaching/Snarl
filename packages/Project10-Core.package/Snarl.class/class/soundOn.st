@@ -1,4 +1,4 @@
 configuration
 soundOn
-	soundIsOn := true.
+	soundOn := true.
 	^self

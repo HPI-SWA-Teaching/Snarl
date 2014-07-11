@@ -1,8 +1,8 @@
 {
 	"category" : "Project10-Core",
 	"classinstvars" : [
-		"isTurnedOn",
-		"soundIsOn",
+		"turnedOn",
+		"soundOn",
 		"mode" ],
 	"classvars" : [
 		 ],

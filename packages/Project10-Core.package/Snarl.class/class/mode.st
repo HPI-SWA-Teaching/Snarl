@@ -1,3 +1,3 @@
-accessing
+configuration
 mode
 	^mode

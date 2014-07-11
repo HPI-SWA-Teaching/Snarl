@@ -1,5 +1,3 @@
-configuration
+API
 externalNotificationClass
-    ^SnarlNotification subclasses
-		detect: [:cls | cls platform = Smalltalk platformName] 
-		ifNone: [^SnarlNotificationIntern].
+    ^SnarlNotification subclasses detect: [:cls | cls platform = Smalltalk platformName] ifNone: [^SnarlNotificationIntern].
