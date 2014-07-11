@@ -17,12 +17,14 @@ Now it's possible to **display the notifications outside of Squeak** - **have fu
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(3)**&nbsp; Project-10  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*... on Ubuntu*  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(1)**&nbsp; install the Squeak-Plugin CommandShell from SqueakSource \*  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(2)**&nbsp; Project-10
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(1)**&nbsp; install Libnotify \*  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(2)**&nbsp; install the Squeak-Plugin CommandShell from SqueakSource \*\*  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(3)**&nbsp; Project-10
 	
 If you want to test the internal function of Snarl also load Project-10-Tests.
 
-\* http://www.squeaksource.com/@jaUIyKCBlxhrDdgy/sm1d2777
+\* for Ubuntu with 'sudo apt-get install libnotify-bin'  
+\*\* http://www.squeaksource.com/@jaUIyKCBlxhrDdgy/sm1d2777
 
 
 ###Using Snarl
