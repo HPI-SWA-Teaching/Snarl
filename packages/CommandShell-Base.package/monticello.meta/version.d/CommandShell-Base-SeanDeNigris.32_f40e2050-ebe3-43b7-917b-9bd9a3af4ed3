@@ -1,1 +1,0 @@
-(name 'CommandShell-Base-SeanDeNigris.32'message '- Enhance file delete logic to handle FS version in Pharo 1.4, in addition to that in Pharo 2.0'id 'f40e2050-ebe3-43b7-917b-9bd9a3af4ed3'date '13 February 2013'time '9:55:49.717 am'author 'SeanDeNigris'ancestors ((id '531f2f92-0fb0-474d-b9c0-f20aed94b7bc'))stepChildren ())

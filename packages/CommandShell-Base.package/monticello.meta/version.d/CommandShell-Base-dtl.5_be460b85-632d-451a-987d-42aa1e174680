@@ -1,1 +1,0 @@
-(name 'CommandShell-Base-dtl.5'message 'CommandShell 4.4.6Pharo pretends to be unaware that it #isMorphic, so implement a workaround in CommandShell class>>isMorphic.'id 'be460b85-632d-451a-987d-42aa1e174680'date '29 June 2010'time '10:16:48.343 pm'author 'dtl'ancestors ((id '5da24d9f-0f1c-40db-bdd0-82c1ae9da93e'))stepChildren ())

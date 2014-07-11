@@ -1,1 +1,0 @@
-(name 'CommandShell-Base-dtl.17'message 'CommandShell 4.4.18Use upper case in Squeak menu entries for consistency with trunk.world -> open... -> Squeak ShellApps -> Squeak Shell'id '378ad85e-1bd3-42bc-9bd7-bcc4db6159b6'date '30 August 2011'time '7:38:56.367 am'author 'dtl'ancestors ((id '4937c04f-2356-44dd-927e-9eb2a1e0ac8c'))stepChildren ())

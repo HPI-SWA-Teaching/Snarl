@@ -1,3 +1,3 @@
 configuration
 turnedOn
-	^turnedOn
+	^isTurnedOn

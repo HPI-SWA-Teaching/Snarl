@@ -1,1 +1,0 @@
-(name 'CommandShell-Base-dtl.36'message 'CommandShell 4.6.7Updates from Thierry Goubier to remove direct references to classes that do not exist in Pharo or other images (especially MVC dependencies)'id '1784b8ac-ae99-41fa-90b5-12354534dfcb'date '22 September 2013'time '6:00:46.341 pm'author 'dtl'ancestors ((id 'ddece61f-fbbe-4ad5-ad78-c918b69678b2'))stepChildren ())

@@ -1,1 +1,0 @@
-(name 'CommandShell-Base-dtl.22'message 'CommandShell 4.5.3Simplify a couple of tests, and avoid use of string intersection, which has been redefined in Pharo'id '87e58689-bc0e-49aa-baaf-f7513936afa6'date '22 April 2012'time '5:07:39.472 pm'author 'dtl'ancestors ((id '63610020-3b99-45d3-b1fa-c302b53c0275'))stepChildren ())

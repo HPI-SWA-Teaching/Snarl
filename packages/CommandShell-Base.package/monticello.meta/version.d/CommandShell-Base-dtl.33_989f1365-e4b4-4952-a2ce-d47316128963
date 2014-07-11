@@ -1,1 +1,0 @@
-(name 'CommandShell-Base-dtl.33'message 'CommandShell 4.6.5Use WriteStream on: String new because literal strings should be immutable.'id '989f1365-e4b4-4952-a2ce-d47316128963'date '24 February 2013'time '11:17:09.976 am'author 'dtl'ancestors ((id 'f40e2050-ebe3-43b7-917b-9bd9a3af4ed3'))stepChildren ())

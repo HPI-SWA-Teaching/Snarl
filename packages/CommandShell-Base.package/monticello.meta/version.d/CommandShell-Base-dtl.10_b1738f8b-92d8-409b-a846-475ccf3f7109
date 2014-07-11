@@ -1,1 +1,0 @@
-(name 'CommandShell-Base-dtl.10'message 'CommandShell 4.4.11Override various Pharo deprecation warnings inappropriate for this package. Support Pharo menu registration.'id 'b1738f8b-92d8-409b-a846-475ccf3f7109'date '29 November 2010'time '9:13:51.622 pm'author 'dtl'ancestors ((id '324c5385-3e8e-4905-84ea-795c99796c61'))stepChildren ())

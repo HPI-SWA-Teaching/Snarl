@@ -1,1 +1,0 @@
-(name 'CommandShell-Base-dtl.26'message 'CommandShell 4.5.7Remove ReferenceStream dependencies in CommandShell-Piping to allow clean load in Pharo.'id '08f20a07-efe4-4a48-baa2-9e0e3fae8b2f'date '24 January 2013'time '8:17:43.836 pm'author 'dtl'ancestors ((id 'cc82aaef-db8f-4dbb-a85b-9bdc5eb3ab34'))stepChildren ())

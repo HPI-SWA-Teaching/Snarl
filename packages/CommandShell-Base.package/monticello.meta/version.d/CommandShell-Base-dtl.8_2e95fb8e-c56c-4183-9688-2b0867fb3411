@@ -1,1 +1,0 @@
-(name 'CommandShell-Base-dtl.8'message 'CommandShell 4.4.9Do not use #ifNotNilDo: (for Cuis compatibility) and do not use #ifNotNil: with a block parameter (for Squeak 3.6 compatibility).'id '2e95fb8e-c56c-4183-9688-2b0867fb3411'date '3 September 2010'time '7:32:56.897 pm'author 'dtl'ancestors ((id '48675488-35d1-4e08-9916-2e4e88d00bd9'))stepChildren ())
