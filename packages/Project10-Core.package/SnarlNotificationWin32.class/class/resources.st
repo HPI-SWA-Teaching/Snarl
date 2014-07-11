@@ -1,3 +1,3 @@
-as yet unclassified
+resources
 resources
 	^{self resourceDLL. self resourceIcon}

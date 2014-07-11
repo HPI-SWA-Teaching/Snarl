@@ -1,4 +1,4 @@
-as yet unclassified
+display
 streamDo: aBlock
 	self contentsWrapped: (Text streamContents: aBlock).
 	self extent: self minimumExtent.

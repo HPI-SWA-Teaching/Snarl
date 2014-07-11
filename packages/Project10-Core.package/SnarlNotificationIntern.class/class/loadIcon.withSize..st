@@ -1,4 +1,4 @@
-as yet unclassified
+action
 loadIcon: aName withSize: aSize
     | file form |
     file := (self folder fullNameFor: aName,'.png').

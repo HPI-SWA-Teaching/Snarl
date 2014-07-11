@@ -1,3 +1,3 @@
-as yet unclassified
+display
 resetAlpha
 	^ self alpha: 0.9

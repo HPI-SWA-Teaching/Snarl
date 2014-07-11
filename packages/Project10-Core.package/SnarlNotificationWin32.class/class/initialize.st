@@ -1,3 +1,3 @@
-as yet unclassified
+initialize
 initialize
 	DefaultIconType := 4

@@ -1,4 +1,4 @@
-Use me to notify the user of events interesting enough to display, but not interesting enough to interrupt whatever the user is doing. You can use me very easily. Just copy one of this lines to your code and i will notify the user:
+Use me to notify the user of events interesting enough to display, but not interesting enough to interrupt whatever the user is doing. You can use me very easily. Just copy one of these lines to your code and I will notify the user:
 	
 	Snarl notifyWithLabel: 'Something happened!' body: 'An important event just occurred.'
 	Snarl notifyWithLabel: 'The time' body: (TimeStamp now) asString

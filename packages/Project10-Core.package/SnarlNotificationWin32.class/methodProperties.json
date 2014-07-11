@@ -1,14 +1,13 @@
 {
 	"class" : {
 		"apiNotify:with:iconpath:" : "MCJ 6/29/2014 22:25",
-		"apiNotify:with:icontype:" : "MCJ 6/29/2014 22:25",
-		"iconToInteger:" : "MCJ 7/11/2014 15:27",
+		"apiNotify:with:icontype:" : "Ju 7/11/2014 17:43",
+		"iconToInteger:" : "Ju 7/11/2014 17:42",
 		"initialize" : "MCJ 6/15/2014 21:25",
 		"notifyWithLabel:body:type:" : "ts 7/11/2014 13:43",
 		"platform" : "MCJ 6/13/2014 16:54:51.618",
 		"resourceDLL" : "MCJ 6/17/2014 15:41",
 		"resourceIcon" : "MCJ 6/17/2014 15:41",
-		"resources" : "MCJ 6/14/2014 15:47:35.212",
-		"setDefaultIconType:" : "MCJ 6/14/2014 15:30:37.36" },
+		"resources" : "MCJ 6/14/2014 15:47:35.212" },
 	"instance" : {
 		 } }
