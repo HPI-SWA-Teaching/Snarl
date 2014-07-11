@@ -1,0 +1,1 @@
+(name 'CommandShell-Base-dtl.14'message 'CommandShell 4.4.15Do not use #addToStartUpList:after: which was just a workaround for an ancient Squeak bug.'id 'f0dad462-839e-4966-a55a-3c159e029a5f'date '20 May 2011'time '7:26:44.856 pm'author 'dtl'ancestors ((id 'b03b6954-bffe-492d-9408-bb39daa05c13'))stepChildren ())

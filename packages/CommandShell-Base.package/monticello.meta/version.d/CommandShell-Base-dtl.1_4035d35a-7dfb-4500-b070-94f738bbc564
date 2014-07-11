@@ -1,0 +1,1 @@
+(name 'CommandShell-Base-dtl.1'message 'Recategorize package CommandShell into subpackages as follows: CommandShell-Base CommandShell-Commands CommandShell-Morphic CommandShell-MVC CommandShell-Piping CommandShell-UI CommandShell-Tests'id '4035d35a-7dfb-4500-b070-94f738bbc564'date '27 June 2010'time '1:08:58.222 pm'author 'dtl'ancestors ()stepChildren ())

@@ -15,6 +15,6 @@ iconToInteger: iconType
 (iconType = #Information)
 	ifTrue: [^1].
 
-^0
+^4
 	
 

@@ -1,0 +1,1 @@
+(name 'CommandShell-Base-dtl.15'message 'CommandShell 4.4.16Fix poorly written ComandShellTestCase>>testPipeline65 that caused problems on Pharo images.'id '7d4afa3e-8c2c-4def-bb3b-fda765439166'date '5 June 2011'time '6:19:14.657 pm'author 'dtl'ancestors ((id 'f0dad462-839e-4966-a55a-3c159e029a5f'))stepChildren ())

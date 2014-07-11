@@ -1,0 +1,1 @@
+(name 'CommandShell-Base-dtl.6'message 'CommandShell 4.4.7Fix a race condition in PipeableOSProcess accessProtect that led to intermittent blocking of the OSProcess grimReaper process when running test suite.'id 'bc8a99ee-afbc-4e05-99df-5653d86a7690'date '11 July 2010'time '9:31:42.743 am'author 'dtl'ancestors ((id 'be460b85-632d-451a-987d-42aa1e174680'))stepChildren ())
