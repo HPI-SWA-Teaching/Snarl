@@ -1,4 +1,4 @@
-as yet unclassified
+resources
 resourceIconInternal
 	^#('internal.png' 'iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
 AAAAuwAAALsBnVmCYQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHSSURB

@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 alphaSource: anAlphaSource
 	alphaSource := anAlphaSource.

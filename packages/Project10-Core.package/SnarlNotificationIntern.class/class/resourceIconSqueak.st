@@ -1,4 +1,4 @@
-as yet unclassified
+resources
 resourceIconSqueak
 	^#('squeak.png' 'iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
 AAAAAAAAAAAB6mUWpAAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAOw

@@ -1,3 +1,3 @@
-as yet unclassified
+display
 nextColorStep: aColor
 	^ aColor alpha: alpha

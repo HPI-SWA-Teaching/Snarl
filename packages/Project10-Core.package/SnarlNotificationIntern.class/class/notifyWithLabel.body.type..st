@@ -1,4 +1,4 @@
-as yet unclassified
+action
 notifyWithLabel: aTitle body: aText type: aType
 	self ensureExistance.
 	(SnarlNotificationMorph new label: aTitle body: aText type: aType) display.

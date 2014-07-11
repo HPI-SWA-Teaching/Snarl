@@ -1,3 +1,3 @@
-as yet unclassified
+display
 vanishDelay
 	^ 15 seconds

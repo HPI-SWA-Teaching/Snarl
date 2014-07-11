@@ -4,7 +4,7 @@
 	"instance" : {
 		"colorGreen" : "Ju 7/11/2014 16:18",
 		"colorRed" : "Ju 7/11/2014 16:41",
-		"defaultColor" : "Ju 6/27/2014 15:04",
+		"defaultColor" : "Ju 7/11/2014 18:08",
 		"distanceBetweenButtons" : "Ju 7/11/2014 16:48",
 		"distanceButtonToDescription" : "Ju 7/11/2014 16:35",
 		"imageSize" : "MCJ 7/9/2014 15:59",
@@ -19,12 +19,10 @@
 		"initializeSoundButton" : "Ju 7/11/2014 16:56",
 		"initializeSoundImages" : "Ju 7/11/2014 16:15",
 		"initializeSwitch" : "Ju 7/11/2014 17:01",
-		"initializeTestButton" : "MCJ 7/11/2014 16:59:17.777",
-		"initializeTestHelpButton" : "MCJ 7/11/2014 16:01",
 		"initializeTestHelpButtons" : "Ju 7/11/2014 16:44",
 		"initializeTitle" : "Ju 7/11/2014 17:02",
 		"loadResources" : "MCJ 7/9/2014 15:47",
-		"openHelp" : "Ju 7/11/2014 16:45",
+		"openHelp" : "Ju 7/11/2014 18:01",
 		"toggleMode" : "Ju 7/11/2014 16:11",
 		"toggleSound" : "Ju 7/11/2014 16:16",
 		"toggleSwitch" : "Ju 7/11/2014 16:17" } }

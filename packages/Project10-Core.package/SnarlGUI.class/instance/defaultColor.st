@@ -1,3 +1,3 @@
 initialization
 defaultColor
-	^(Color r:194 g:219 b:116)
+	^ (Color r:194 g:219 b:116)

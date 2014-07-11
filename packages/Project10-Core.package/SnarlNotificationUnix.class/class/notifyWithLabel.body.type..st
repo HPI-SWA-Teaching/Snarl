@@ -1,4 +1,4 @@
-as yet unclassified
+action
 notifyWithLabel: aLabel body: aBody type: aType
 	Snarl setInternalMode.
 	Snarl notifyWithLabel: aLabel body: aBody type: aType.

@@ -1,4 +1,4 @@
-as yet unclassified
+action
 notifyWithLabel: aTitle body: aText type: aType
 	|icon|
 	icon := self iconToInteger: aType.

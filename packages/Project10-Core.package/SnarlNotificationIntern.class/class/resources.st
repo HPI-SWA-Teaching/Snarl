@@ -1,3 +1,3 @@
-as yet unclassified
+resources
 resources
 	^{self resourceIconSqueak . self resourceIconInfo . self resourceIconWarning . self resourceIconError}

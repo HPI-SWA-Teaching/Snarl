@@ -10,4 +10,5 @@ alpha: newAlpha
 		m color: (self nextColorStep: m color)].
 	
 	icon newForm: (self iconWithAlpha: newAlpha).
-	self borderColor isTransparent ifTrue: [self delete].
+	self borderColor isTransparent 
+		ifTrue: [self delete].
