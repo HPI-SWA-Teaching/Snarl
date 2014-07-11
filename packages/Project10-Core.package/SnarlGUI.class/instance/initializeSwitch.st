@@ -7,7 +7,7 @@ initializeSwitch
 	distanceSwitchButtonToModeButton :=5.
 	
 	switch := SimpleButtonMorph new label: ''.
-	Snarl turnedOn 
+	Snarl isTurnedOn 
 		ifTrue: [switch color: (Color r: 0.2 g: 0.7 b:0.1).]
 		ifFalse: [switch color: (Color r:0.7 g:0.3 b:0.1).].
 	switch width: sideLength; height: sideLength.
