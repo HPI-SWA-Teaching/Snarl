@@ -1,5 +1,5 @@
 initialization
-initializeTestHelpButton
+initializeTestButton
 	| test help|
 	
 	test := SimpleButtonMorph new label: 'Test'.

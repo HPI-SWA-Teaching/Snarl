@@ -1,9 +1,9 @@
 action
 toggleMode
-(Snarl mode = #external)	
-	ifTrue: [Snarl setInternalMode. 
-			self externalImage hide. 
-			self internalImage show.] 
-	ifFalse: [Snarl setExternalMode. 
-			self internalImage hide. 
-			self externalImage show].
+	(Snarl mode = #external)	
+		ifTrue: [Snarl setInternalMode. 
+				externalImage hide. 
+				internalImage show.] 
+		ifFalse: [Snarl setExternalMode. 
+				internalImage hide. 
+				externalImage show].
