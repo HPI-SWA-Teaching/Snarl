@@ -13,13 +13,9 @@ baseline: spec
 					[ spec
      						repository: 'http://source.squeak.org/FFI/';
 						yourself ];
-				package: 'CommandShell' with:  
-					[ spec
-     						repository: 'http://www.squeaksource.com/CommandShell/';
-						yourself ];
-				
+
 				package: 'Project10-Core' with: [ spec requires: 
-					#('FFI-Pools' 'FFI-Kernel' 'CommandShell')]; 
+					#('FFI-Pools' 'FFI-Kernel')]; 
 				package: 'Project10-Tests' with: [ spec requires: #('Project10-Core')];
 				yourself.
 			spec
