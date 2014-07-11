@@ -1,7 +1,7 @@
 as yet unclassified
-notifyWithLabel: aTitle body: aText icon: iconType
+notifyWithLabel: aTitle body: aText type: aType
 	|icon|
-	icon := self iconToInteger: iconType.
+	icon := self iconToInteger: aType.
 	self ensureExistance.
 	self apiNotify: aTitle with: aText icontype: icon. 
 	self playSound.
