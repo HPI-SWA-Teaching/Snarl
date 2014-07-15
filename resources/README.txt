@@ -1,1 +1,2 @@
 for using Snarl you don't need this. But maybe you need the code or the images for refactoring or other purposes.
+Resources Snarl needs, will be loaded on demand by base64decoded strings saved in methods extracted to resources of Squeak.
