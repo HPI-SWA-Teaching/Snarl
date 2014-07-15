@@ -1,1 +1,1 @@
-Copy the content of this folder to your Squeak ressources folder (..\SWT2014\SWT2014.app\Contents\Resources\)
+for using Snarl you don't need this. But maybe you need the code or the images for refactoring or other purposes.
