@@ -1,4 +1,4 @@
-# Snarl
+Snarl
 ===================
 [![Build Status](https://travis-ci.org/SWTI2014/Snarl.svg)](https://travis-ci.org/SWTI2014/Snarl)
 
