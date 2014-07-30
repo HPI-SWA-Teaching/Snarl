@@ -4,7 +4,7 @@ language: erlang
 env:
    - ST=Squeak-4.4
    - ST=Squeak-4.5
-   - ST=Squeak-Trunk
+#   - ST=Squeak-Trunk
 
 # For SqueakSSL
 before_install:
