@@ -1,1 +1,0 @@
-(name 'FFI-Kernel-mtf.23'message 'added null pointer testing and a utility to create an array of strings. Imported from Cobalt'id 'e2c56e17-4fea-284f-a1b0-e5b5cb4f4971'date '31 December 2010'time '6:15:20.474 pm'author 'mtf'ancestors ((id 'fb6d9b77-34ea-9b48-9d13-3e1371162b4a'))stepChildren ())

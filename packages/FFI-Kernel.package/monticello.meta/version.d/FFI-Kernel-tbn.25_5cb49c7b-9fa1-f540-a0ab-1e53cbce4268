@@ -1,1 +1,0 @@
-(name 'FFI-Kernel-tbn.25'message '#clone is not in Pharo, so copy it from Squeak to make at least the FFIPluginTest green again - all of this needs review/reworked'id '5cb49c7b-9fa1-f540-a0ab-1e53cbce4268'date '26 April 2012'time '2:12:10.287 pm'author 'tbn'ancestors ((id 'a0f036dd-7778-4db3-ad75-737cb15a4162'))stepChildren ())

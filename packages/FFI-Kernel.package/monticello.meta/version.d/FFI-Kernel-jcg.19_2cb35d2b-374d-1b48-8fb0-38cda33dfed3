@@ -1,1 +1,0 @@
-(name 'FFI-Kernel-jcg.19'message 'Add #allocateSpace to conveniently malloc space for the ExternalForm''s pixels.'id '2cb35d2b-374d-1b48-8fb0-38cda33dfed3'date '6 June 2010'time '2:33:43.259 pm'author 'jcg'ancestors ((id 'a0462ff8-6ba5-7847-8579-2a83782f7bc6'))stepChildren ())
