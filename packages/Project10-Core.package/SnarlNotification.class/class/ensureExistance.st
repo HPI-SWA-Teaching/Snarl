@@ -1,4 +1,4 @@
-Resourcemanagment
+resource management
 ensureExistance
 	self resources 
 		do: [:resource| 

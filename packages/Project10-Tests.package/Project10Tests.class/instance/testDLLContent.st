@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testDLLContent
 	| base64 |
 	SnarlNotificationWin32 ensureExistance.

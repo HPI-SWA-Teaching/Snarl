@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testExternalRessources
 	| file contents |
 	{SnarlNotificationWin32 . SnarlNotificationIntern . SnarlNotificationMacOS . SnarlGUIResources . SnarlSoundResource}

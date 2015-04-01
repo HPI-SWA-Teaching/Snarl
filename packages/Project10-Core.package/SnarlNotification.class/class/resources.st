@@ -1,3 +1,3 @@
-Resourcemanagment
+resource management
 resources
 	^#()

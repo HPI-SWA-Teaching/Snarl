@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testTypesInternalMode 
 	Snarl setInternalMode.
 	#('Warning' 'Error' 'Information' 'Squeak' 'Nonsense should be Squeak Icon') do:[:type|

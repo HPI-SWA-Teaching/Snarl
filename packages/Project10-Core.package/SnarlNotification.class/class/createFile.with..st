@@ -1,4 +1,4 @@
-Resourcemanagment
+resource management
 createFile: aName with: aContent
 	| file |
 	file := (self folder newFileNamed: aName).

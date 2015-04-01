@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testMessagesTurnOffNotifications
 	"can't Count Morphs because it is displayed by a asynchronius Message just played after this test"
 	|countDeferredUIMessages|	

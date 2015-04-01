@@ -1,4 +1,4 @@
-Resourcemanagment
+resource management
 folder
 	|path|
 	path := FileDirectory default / 'Snarl'. 

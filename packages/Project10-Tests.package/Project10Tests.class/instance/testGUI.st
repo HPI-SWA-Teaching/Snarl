@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testGUI
 	| gui |
 	gui := SnarlGUI new.

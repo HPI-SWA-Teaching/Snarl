@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testTypesExternalMode 
 	Smalltalk platformName = 'unix' ifTrue: [^nil]. "We need CommandShell for this"
 	Snarl setExternalMode.
