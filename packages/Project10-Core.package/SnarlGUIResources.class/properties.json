@@ -10,5 +10,5 @@
 	"name" : "SnarlGUIResources",
 	"pools" : [
 		 ],
-	"super" : "SnarlNotification",
+	"super" : "SnarlPlatformResources",
 	"type" : "normal" }

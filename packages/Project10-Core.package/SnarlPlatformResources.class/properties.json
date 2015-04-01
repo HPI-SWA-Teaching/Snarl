@@ -1,14 +1,14 @@
 {
 	"category" : "Project10-Core",
 	"classinstvars" : [
-		"Sound" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "SnarlSoundResource",
+	"name" : "SnarlPlatformResources",
 	"pools" : [
 		 ],
-	"super" : "SnarlPlatformResources",
+	"super" : "Object",
 	"type" : "normal" }
