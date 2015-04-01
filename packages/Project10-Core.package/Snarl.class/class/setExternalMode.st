@@ -1,4 +1,4 @@
 configuration
 setExternalMode
 	mode:=#external.
-	^self.
+	^self

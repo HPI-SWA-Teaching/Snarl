@@ -1,0 +1,4 @@
+preferences
+snarlModeSymbols 
+
+	^ {#internal . #external}
