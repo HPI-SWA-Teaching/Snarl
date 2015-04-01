@@ -3,6 +3,8 @@
 		 },
 	"instance" : {
 		"apiExternal32Call" : "MCJ 6/29/2014 22:25",
+		"setUp" : "pre 4/1/2015 21:50",
+		"tearDown" : "pre 4/1/2015 21:51",
 		"testDLLContent" : "MCJ 7/15/2014 15:38",
 		"testExternalRessources" : "MCJ 7/9/2014 16:47",
 		"testExternalWin32Call" : "MCJ 6/6/2014 16:56:54.01",
