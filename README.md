@@ -24,7 +24,7 @@ Now it's possible to **display the notifications outside of Squeak** - **have fu
 If you want to test the internal function of Snarl also load Project-10-Tests.
 
 \* for Ubuntu with 'sudo apt-get install libnotify-bin'  
-\*\* http://www.squeaksource.com/@jaUIyKCBlxhrDdgy/sm1d2777
+\*\* http://www.squeaksource.com/CommandShell.html
 
 
 ###Using Snarl
