@@ -6,7 +6,8 @@ We are **Project-10** and we have extended **Snarl**, the notification service f
 Now it's possible to **display the notifications outside of Squeak** - **have fun!**
 
 
-###Installing Snarl
+### Installing Snarl
+
 **(1)**&nbsp; Get the git-repository.  
 **(2)**&nbsp; In Squeak, add a new filetree-repository and choose the folder 'packages'.  
 **(3)**&nbsp; Open the repository and install the packages **in this order**:
@@ -27,9 +28,11 @@ If you want to test the internal function of Snarl also load Project-10-Tests.
 \*\* http://www.squeaksource.com/CommandShell.html
 
 
-###Using Snarl
+### Using Snarl
+
 After installing, check Snarl's class documentation to learn how to use it.
 
 
-###Working on Snarl
+### Working on Snarl
+
 If you want to develop and improve our Snarl, we created some issues which we considered useful as some suggestions.
