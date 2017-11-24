@@ -1,6 +1,6 @@
 Snarl
 ===================
-[![Build Status](https://travis-ci.org/HPI-SWA-Teaching/Snarl.svg)](https://travis-ci.org/HPI-SWA-Teaching/Snarl)
+[![Build Status](https://travis-ci.org/hpi-swa-teaching/Snarl.svg)](https://travis-ci.org/hpi-swa-teaching/Snarl)
 
 We are **Project-10** and we have extended **Snarl**, the notification service for Squeak, as part of the software engineering lecture at Hasso-Plattner-Intitute.  
 Now it's possible to **display the notifications outside of Squeak** - **have fun!**
